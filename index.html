@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <h1 id="title" >Mathematics Camp Registration Form </h1>
+    <p id="description">Please fill out this form with required information</p>
+    
+    <link rel="stylesheet" href="stylefor.css">
+    
+    
+    </head>
+    <body>
+      
+
+      <form id="survey-form">
+
+        <div class="name">
+          <label id="name-label">
+            Name:
+            </label>
+            <br>
+         
+            <input id="name" type="text" required placeholder="Enter your name">
+             </div>
+
+
+            <div class="number-div">
+             <label id="number-label">
+            Age:
+            </label>
+            
+            <input id="number" type="number" max="100" min="18" required placeholder="Enter your age" >
+            </div>
+           
+
+<div class="email-div">
+          <label id="email-label">
+            Email:
+            </label>
+           
+            <input id="email" type="email" required placeholder="enter your email">
+          </div>
+<br>
+          
+
+
+
+<div class="role-div">
+          <label for="referrer" >which option describes your current role?
+          
+          <select id="dropdown" name="referrer">
+            <option value="0">(select your current role)</option>
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">prefer not to say</option>
+            
+          </select>
+         
+        </label>
+     
+      </div>
+
+
+
+
+<br>
+<hr>
+<div class="rec-div">
+        <legend>From Where did you heard about us?</legend>
+        <label for="definitely"><input id="definitely" type="radio" name="def-type" value="1" class="inline" checked /> Friends</label><br>
+        <label for="maybe"><input id="maybe" type="radio" value="2" name="def-type" class="inline" /> Social Media</label><br>
+        <label for="somewhat"><input id="somewhat" type="radio" value="3" name="def-type" class="inline" /> Ad</label>
+        </div>
+
+
+
+
+
+<hr>
+
+        <div class="feature-div">
+          <label for="feature" >Our bedrooms are named after the most known mathematicians, which one would you prefer?<br>
+          
+          <select id="dropdown-2" name="feature">
+            <option value="">(select)</option>
+            <option value="1">Issac Newton</option>
+            <option value="2">Pythagorus</option>
+            <option value="3">Joseph Fourier</option>
+            <option value="3">Ptolemy</option>
+            
+          </select>
+         
+        </label>
+     
+      </div>
+      
+<br>
+
+
+ <label for="like">We will play some games, what do you want to play     ?
+   <br>
+        <input class="inline" id="like" type="checkbox" value="1" required name="like" /> Math bingo<br>
+        <input class="inline" id="like" type="checkbox" value="2"required name="like" /> Guess the weight<br>
+        <input class="inline" id="like" type="checkbox"value="3" required name="like" /> Pizza fraction<br>
+        <input class="inline" id="like" type="checkbox" value="4"required name="like" /> Lengthy Scavenger Hunt<br>
+        <input class="inline" id="like" type="checkbox"value="5" required name="like" />Survey and Graph
+      </label><br>
+
+<hr>
+
+      <label for="bio">Any comments or suggestions?<br>
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="write your comments here..."></textarea>
+        </label>
+        <br>
+        <input id="submit" type="submit" value="submit"> 
+
+
+        </form>
+
+      </body>
+  </html>
